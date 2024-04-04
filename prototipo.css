@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter" , sans-serif;
+    font-weight: 800;
+}
+
+h2{
+    font-family: "Teko";
+    font-size: 2rem;
+    font-weight: 600;
+
+    
+
+    text-transform: uppercase;
+}
+
+.Cab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+
+    background-color: red;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.icone{
+    padding-top: 8px ;
+
+    width: 35px;
+    
+}
+
+.menu{
+    padding-top: 15px ;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #fff2e7;    
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 15px;
+    gap: 3rem;
+    padding-bottom: 8rem;
+}
+
+section{
+    width: 77%;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.pesquisa input{
+    width: 88%;
+    font-size: 15px;
+}
+
+.pesquisa-but {
+    width: 12%;
+    border: none;
+    background-color: #ffffff;
+}
+
+.pesquisa-but img{
+    width: 70%;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10em;
+}
+
+.options{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#op{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+#op a{
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: #eff3f6;
+    width: 42%;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 211px;
+    border-radius: 10px;
+}
+
+.card-pos{
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.card-tit{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.card-tit span{
+    font-size: 13px;
+    color: #ff0000d2;
+}
+
+.card-desc{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    gap: 23px;
+}
+
+.card-desc p{
+    color: black;
+}
+
+.card-prec{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    background-color: red;
+    height: 23.4vh;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+footer h2,p{
+    color: white;
+}
