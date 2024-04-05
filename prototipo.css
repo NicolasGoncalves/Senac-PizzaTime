@@ -106,9 +106,16 @@ section {
 
 .cards {
   width: 100%;
-  align-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.linha{
   display: flex;
-  justify-content: space-evenly;
+  gap: 50px;
+  justify-content: center;
 }
 
 .sec-titulo {
@@ -203,7 +210,7 @@ section {
   display: flex;
   flex-direction: row;
   background-color: #eff3f6;
-  width: 42%;
+  width: 39rem;
   border-radius: 10px;
   border: 2px solid #15181f;
 }
