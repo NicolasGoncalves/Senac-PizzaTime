@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,30 @@
     <link rel="stylesheet" href="./prototipo.css">
     <meta name="description" content="Pitch Tecnico da materia de PW">
 </head>
+
 <body>
-    
+
     <header class="Cab">
         <!-- Logo -->
         <div class="logo">
-            <h2>Restaurante</h2>
+            <img src="./assets/Logo3.png" alt="">
+            <h2>PizzaTime</h2>
         </div>
 
-        <nav>
-            <ul class="menu">
-                <li><a href="">Home</a></li>
-                <!-- <li><a href="">Cardapio</a></li>
-                <li><a href="">Sobremesas</a></li>
-                <li><a href="">Bebidas</a></li> -->
-                <li><a href="">Pedidos</a></li>
-            </ul>
-            
-            
+        <nav class="pesquisa">
+            <div class="pesquisa-buscar">
+                <img class="icone " src="./assets/lupa.png" alt="">
+                <input type="text" placeholder="Buscar no Cardápio">
+            </div>
+            <button class="pesquisa-but">
+                Buscar
+            </button>
         </nav>
 
-        <div>
+        <div class="Cab-Utilidades">
             <!-- Login -->
-            <a href="">
-                <img class="icone" src="./assets/trancar.png" alt="">
+            <a class="Login" href="">
+                <img class="icone" src="./assets/Login.png" alt="">
             </a>
             <!-- carrinho -->
             <a href="">
@@ -39,126 +40,154 @@
         </div>
     </header>
 
+    <hr>
+
     <main>
 
         <section class="sec1">
-            <nav class="pesquisa">
-                <input type="text">
-                <button class="pesquisa-but">
-                    <img class="icone " src="./assets/lupa.png" alt="">
-                </button>
-            </nav>
+
+            <div class="sec1-desc">
+                <span>Terça-feira à Domingo - 17:00 às 23:59 | Pedido mínimo R$ R$ 29,99 | Duração do Pedido : 40-70 min
+                </span>
+            </div>
 
             <div class="options">
                 <ul id="op">
+                    <li><a href="">Combos</a></li>
                     <li><a href="">Promoções</a></li>
-                    <li><a href="">Pratos do dia</a></li>
-                    <li><a href="">Cardapio</a></li>
+                    <li><a href="">Pizzas Salgadas</a></li>
+                    <li><a href="">Pizzas Doces</a></li>
                     <li><a href="">Bebidas</a></li>
-                    <li><a href="">Sobremesas</a></li>
+                    <li><a href="">Pedidos</a></li>
                 </ul>
             </div>
         </section>
 
+        <!-- Combos -->
+        <section>
+
+            <div class="Sec-titulo">
+
+                <h2>Combos</h2>
+
+            </div>
+
+            <div class="Cards">
+
+                <!-- Cards -->
+                <div class="card">
+                    <img src="./assets/itens/combo_familia.png" alt="">
+                    <div class="card-pos">
+                        <header class="card-tit">
+                            <h3>Combo Família </h3>
+                        </header>
+
+                        <div class="card-desc">
+                            <!-- Descrição -->
+                            <div>
+                                <p>Qualquer pizza salgada + Uma pizza doce + Refrigerante</p>
+                            </div>
+                            <!-- Preço -->
+                            <div class="card-prec">
+                                <h4>A partir de R$ 80,99</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/itens/combo_basico.png" alt="">
+                    <div class="card-pos">
+                        <header class="card-tit">
+                            <h3>Combo Básico </h3>
+                        </header>
+
+                        <div class="card-desc">
+                            <!-- Descrição -->
+                            <div>
+                                <p>Qualquer pizza salgada + Refrigerante</p>
+                            </div>
+                            <!-- Preço -->
+                            <div class="card-prec">
+                                <h4>A partir de R$ 39,99</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+        </section>
+
         <!-- Promoções -->
         <section>
-            <!-- Cards -->
-            <div class="card">
-                <img src="./assets/istockphoto-1313384844-612x612.jpg" alt="">
-                <div class="card-pos">
-                    <header class="card-tit">
-                        <span>Promoção</span>
-                        <h3>Combo</h3>
-                    </header>
-    
-                    <div class="card-desc">
-                        <!-- Descrição -->
-                        <div>
-                            <p>Descrição do produto</p>
-                        </div>
-                        <!-- Preço -->
-                        <div class="card-prec">
-                            <h4>A partir de R$ 80,00 </h4>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-            
-            <div class="card">
-                <img src="./assets/istockphoto-1313384844-612x612.jpg" alt="">
-                <div class="card-pos">
-                    <header class="card-tit">
-                        <span>Promoção</span>
-                        <h3>Combo</h3>
-                    </header>
-    
-                    <div class="card-desc">
-                        <!-- Descrição -->
-                        <div>
-                            <p>Descrição do produto</p>
-                        </div>
-                        <!-- Preço -->
-                        <div class="card-prec">
-                            <h4>A partir de R$ 80,00 </h4>
-                        </div>
-                    </div>
+            <div class="Sec-titulo">
 
-                </div>
+                <h2>Promoções</h2>
+
             </div>
+
+            <div class="Cards">
+
+                <!-- Cards -->
+                <div class="card">
+                    <img src="./assets/itens/promocao1.png" alt="">
+                    <div class="card-pos">
+                        <header class="card-tit">
+                            <h3>Toscana Turbinada </h3>
+                        </header>
+
+                        <div class="card-desc">
+                            <!-- Descrição -->
+                            <div>
+                                <p>Calabresa coberta com mussarela, molho e orégano.</p>
+                            </div>
+                            <!-- Preço -->
+                            <div class="card-prec">
+                                <h4>R$ 25,99</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/itens/promocao2.png" alt="">
+                    <div class="card-pos">
+                        <header class="card-tit">
+                            <h3>Frango com Mussarela Turbinada</h3>
+                        </header>
+
+                        <div class="card-desc">
+                            <!-- Descrição -->
+                            <div>
+                                <p>Frango coberto com mussarela, molho e orégano.</p>
+                            </div>
+                            <!-- Preço -->
+                            <div class="card-prec">
+                                <h4>R$ 25,99</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+
         </section>
 
-        <!-- Pratos do dia -->
-        <section>
-            <!-- Cards -->
-            <div class="card">
-                <img src="./assets/istockphoto-1313384844-612x612.jpg" alt="">
-                <div class="card-pos">
-                    <header class="card-tit">
-                        <span>Pratos do dia</span>
-                        <h3>Combo</h3>
-                    </header>
-    
-                    <div class="card-desc">
-                        <!-- Descrição -->
-                        <div>
-                            <p>Descrição do produto</p>
-                        </div>
-                        <!-- Preço -->
-                        <div class="card-prec">
-                            <h4>A partir de R$ 80,00 </h4>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./assets/istockphoto-1313384844-612x612.jpg" alt="">
-                <div class="card-pos">
-                    <header class="card-tit">
-                        <span>Pratos do dia</span>
-                        <h3>Combo</h3>
-                    </header>
-    
-                    <div class="card-desc">
-                        <!-- Descrição -->
-                        <div>
-                            <p>Descrição do produto</p>
-                        </div>
-                        <!-- Preço -->
-                        <div class="card-prec">
-                            <h4>A partir de R$ 80,00 </h4>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+        
 
     </main>
 
-    <footer >
+    <footer>
 
         <h2>Restaurante</h2>
 
@@ -171,4 +200,5 @@
     </footer>
 
 </body>
+
 </html>

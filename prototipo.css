@@ -26,10 +26,27 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    height: 50px;
-
-    background-color: red;
+    height: 4em;
+    background-color: #e90530;
     color: white;
+
+    /* position: fixed; */
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 5px;
+}
+
+.logo h2{
+    align-self: center;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
 }
 
 a{
@@ -39,6 +56,24 @@ a{
 
 ul{
     list-style: none;
+}
+
+hr{
+    border: 1px solid #15181f;
+}
+
+.Cab-Utilidades{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Login{
+    display: flex;
+    align-items: center;
+}
+.Login img{
+    width: 30px;
 }
 
 .icone{
@@ -62,34 +97,69 @@ main{
     flex-direction: column;
     width: 100%;
     padding-top: 15px;
-    gap: 3rem;
+    gap: 2rem;
     padding-bottom: 8rem;
+    background-color: #dcdcdc;
 }
 
 section{
     width: 77%;
     align-self: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.Cards{
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Sec-titulo{
+    align-self: center;
 }
 
 .pesquisa{
     display: flex;
     flex-direction: row;
-    width: 30%;
-    justify-content: space-around;
+    width: 26em;
+    justify-content: space-between;
     align-self: center;
 }
 
 .pesquisa input{
-    width: 88%;
+    width: 20em;
     font-size: 15px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-style: none;
+    border: 2px solid black;
+    height: 40px;
+
+    outline: none;
 }
 
+.pesquisa-buscar{
+    display: flex;
+}
+.pesquisa-buscar img{
+    padding: 0;
+    width: 28px;
+    align-self: center;
+    margin-right: 10px;
+    
+}
+
+
 .pesquisa-but {
-    width: 12%;
+    width: 5em;
     border: none;
-    background-color: #ffffff;
+    background-color: #15181f;
+    color: white;
+    border-radius: 5px; 
 }
 
 .pesquisa-but img{
@@ -100,7 +170,23 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 10em;
+    height: 4em;
+
+    /* padding-top: 4.5em; */
+    gap: 17px;
+}
+
+.sec1-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+.sec1-desc span{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #000000c7;
 }
 
 .options{
@@ -113,12 +199,15 @@ section{
 
 #op{
     display: flex;
-    justify-content: space-evenly;
-    width: 70%;
+    justify-content: space-between;
+    width: 73%;
 }
 
 #op a{
-    color: black;
+    background-color: #15181f;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 30px;
 }
 
 .card{
@@ -127,25 +216,29 @@ section{
     background-color: #eff3f6;
     width: 42%;
     border-radius: 10px;
+    border: 2px solid #15181f;
 }
 
 .card img{
-    width: 211px;
-    border-radius: 10px;
+    width: 180px;
+    border-right: 2px solid #15181f;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .card-pos{
     display: flex;
     flex-direction: column;
-    width: 63%;
-    gap: 10px;
-    padding-left: 10px;
+    width: 62%;
+    padding-left: 5px;
+    gap: 20px;
 }
 
 .card-tit{
     display: flex;
     flex-direction: column;
-    height: 30%;
+    height: 50px;
+    justify-content: end;
 }
 
 .card-tit span{
@@ -161,17 +254,20 @@ section{
 }
 
 .card-desc p{
-    color: black;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .card-prec{
     align-items: center;
     display: flex;
     justify-content: flex-end;
+    width: 90%;
 }
 
 footer{
-    background-color: red;
+    background-color: #e90530;
     height: 23.4vh;
     justify-content: space-around;
     display: flex;
