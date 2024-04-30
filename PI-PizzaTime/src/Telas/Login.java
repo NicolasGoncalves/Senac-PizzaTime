@@ -70,11 +70,11 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(btnCadastrar);
         btnCadastrar.setBounds(130, 270, 90, 30);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\nicolas.gbmarco\\Documents\\Senac-PizzaTime\\PI-PizzaTime\\Assets\\Logo.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor.ssousa4\\Desktop\\teste\\Senac-PizzaTime\\PI-PizzaTime\\Assets\\Logo.png")); // NOI18N
         getContentPane().add(jLabel2);
         jLabel2.setBounds(80, 0, 180, 60);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\nicolas.gbmarco\\Documents\\Senac-PizzaTime\\PI-PizzaTime\\Assets\\Logo-BackGround.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor.ssousa4\\Desktop\\teste\\Senac-PizzaTime\\PI-PizzaTime\\Assets\\Logo-BackGround.png")); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(-10, -20, 370, 90);
 

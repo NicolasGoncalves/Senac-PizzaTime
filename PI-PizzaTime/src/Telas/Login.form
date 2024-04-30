@@ -109,7 +109,7 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\nicolas.gbmarco\Documents\Senac-PizzaTime\PI-PizzaTime\Assets\Logo.png"/>
+          <Image iconType="2" name="C:\Users\vitor.ssousa4\Desktop\teste\Senac-PizzaTime\PI-PizzaTime\Assets\Logo.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -121,7 +121,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\nicolas.gbmarco\Documents\Senac-PizzaTime\PI-PizzaTime\Assets\Logo-BackGround.png"/>
+          <Image iconType="2" name="C:\Users\vitor.ssousa4\Desktop\teste\Senac-PizzaTime\PI-PizzaTime\Assets\Logo-BackGround.png"/>
         </Property>
       </Properties>
       <Constraints>
