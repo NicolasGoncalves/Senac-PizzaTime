@@ -57,7 +57,15 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(txtNome);
         txtNome.setBounds(100, 80, 160, 30);
 
+        btnLogin.setBackground(new java.awt.Color(21, 24, 31));
+        btnLogin.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Login");
+        btnLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLoginActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnLogin);
         btnLogin.setBounds(100, 190, 160, 40);
 
@@ -66,15 +74,18 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(lblCadastrar);
         lblCadastrar.setBounds(120, 240, 130, 30);
 
+        btnCadastrar.setBackground(new java.awt.Color(21, 24, 31));
+        btnCadastrar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnCadastrar.setForeground(new java.awt.Color(255, 255, 255));
         btnCadastrar.setText("Cadastrar");
         getContentPane().add(btnCadastrar);
         btnCadastrar.setBounds(130, 270, 90, 30);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor.ssousa4\\Desktop\\teste\\Senac-PizzaTime\\PI-PizzaTime\\Assets\\Logo.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\nicolas.gbmarco\\Documents\\Senac-PizzaTime\\PI-PizzaTime\\src\\Assets\\Logo.png")); // NOI18N
         getContentPane().add(jLabel2);
         jLabel2.setBounds(80, 0, 180, 60);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor.ssousa4\\Desktop\\teste\\Senac-PizzaTime\\PI-PizzaTime\\Assets\\Logo-BackGround.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\nicolas.gbmarco\\Documents\\Senac-PizzaTime\\PI-PizzaTime\\src\\Assets\\Logo-BackGround.png")); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(-10, -20, 370, 90);
 
@@ -86,6 +97,11 @@ public class Login extends javax.swing.JFrame {
         setSize(new java.awt.Dimension(359, 363));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
+        // TODO add your handling code here:
+        new Menu().setVisible(true);
+    }//GEN-LAST:event_btnLoginActionPerformed
 
     /**
      * @param args the command line arguments
