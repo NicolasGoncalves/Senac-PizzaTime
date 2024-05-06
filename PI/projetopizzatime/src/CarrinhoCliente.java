@@ -27,8 +27,6 @@ public class CarrinhoCliente extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
         btnConfirmar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -41,22 +39,6 @@ public class CarrinhoCliente extends javax.swing.JFrame {
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Vitor\\OneDrive\\Documentos\\NetBeansProjects\\projetopizzatime\\src\\Assets\\fundovermelho.jpeg")); // NOI18N
         getContentPane().add(jLabel4);
         jLabel4.setBounds(0, 0, 570, 80);
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
-        jScrollPane1.setViewportView(jTable1);
-
-        getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(60, 100, 452, 402);
 
         btnConfirmar.setBackground(new java.awt.Color(0, 0, 0));
         btnConfirmar.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
@@ -108,7 +90,5 @@ public class CarrinhoCliente extends javax.swing.JFrame {
     private javax.swing.JButton btnConfirmar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }

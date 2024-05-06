@@ -94,7 +94,7 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
-        // TODO 
+        new CadastrarCliente().setVisible(true);
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
     /**
