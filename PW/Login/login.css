@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image:url("/assets/Pizza_fundo.png");
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: #dcdcdc;
+    height: 28em;
+    width: 29em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid #15181f;
+}
+
+h2 {
+    font-family: "Teko";
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sec1{
+    height: 6em;
+    display: flex;
+    background-color: #e90530;
+    width: 100%;
+    border-radius: 23px 23px 0px 0px;
+    justify-content: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo h2 {
+    align-self: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.sec2{
+    height: 16em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec2 input{
+    height: 40px;
+    outline: none;
+    width: 17em;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+#btnLogin{
+    background-color: #15181f;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 7px;
+    border-style: none;
+    width: 110px;
+    height: 38px;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

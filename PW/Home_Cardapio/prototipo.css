@@ -216,6 +216,8 @@ section {
   width: 30rem;
   border-radius: 10px;
   border: 2px solid #15181f;
+  transition: 0.3s;
+  
 }
 
 .card img {
@@ -344,3 +346,20 @@ footer img {
 .divisor-footer {
   padding-top: -20px;
 }
+
+
+.card:hover{
+  border:2px solid #ff002f;
+
+}
+
+/* .card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  columns: 2;
+  background-color: #eff3f6;
+  width: 30rem;
+  border-radius: 10px;
+  border: 2px solid #15181f;
+} */
